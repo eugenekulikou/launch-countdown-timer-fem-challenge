@@ -1,0 +1,21 @@
+@import url(./reset.css);
+@import url(./variables.css);
+
+body {
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.prelauncher {
+  text-align: center;
+  font-size: var(--font-base);
+  font-family: var(--font-family);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

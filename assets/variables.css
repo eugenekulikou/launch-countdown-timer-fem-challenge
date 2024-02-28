@@ -1,0 +1,17 @@
+:root {
+  --xs-screen: 375px; /* mobile */
+  --lg-screen: 1440px; /* desktop */
+
+  --color-grayish-blue: hsl(237, 18%, 59%);
+  --color-soft-red: hsl(345, 95%, 68%);
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-dark-blue: hsl(236, 21%, 26%);
+  --color-darker-blue: hsl(235, 16%, 14%);
+  --color-darkest-blue: hsl(234, 17%, 12%);
+
+  --font-base: 0.875rem;
+  --font-family: "Red Hat Text", sans-serif;
+  --font-weight: 700;
+  --font-style: normal;
+}
