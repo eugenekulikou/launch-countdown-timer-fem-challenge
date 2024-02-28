@@ -3,19 +3,147 @@
 
 body {
   height: 100dvh;
-  width: 100dvw;
+  background-color: var(--color-background);
+  font-family: var(--font-family);
+  color: var(--color-white);
 }
 
-.prelauncher {
+main > * {
+  padding: 4rem 0;
+}
+
+main {
+  height: 70vh;
+  background-image: url(../images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  place-content: center;
+  place-items: center;
+
+  h1 {
+    font-size: var(--font-2xl);
+    text-transform: uppercase;
+    letter-spacing: 0.625rem;
+  }
+}
+
+footer {
+  height: 30vh;
+  background-image: url(../images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+footer > * {
+  margin-block: 1rem;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.countdown-card {
+  display: flex;
+  flex-direction: column;
+}
+.countdown-card__body {
+  position: relative;
+  width: 10.625rem;
+  height: 10rem;
+  margin-inline: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  -webkit-box-shadow: 0px 16px 0px 0px var(--color-darkest-blue);
+  -moz-box-shadow: 0px 16px 0px 0px var(--color-darkest-blue);
+  box-shadow: 0px 16px 0px 0px var(--color-darkest-blue);
+
+  &::before,
+  &::after {
+    background-color: var(--color-darkest-blue);
+    border-radius: 50%;
+    content: "";
+    height: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+  }
+
+  &::before {
+    left: -0.5rem;
+  }
+
+  &::after {
+    right: -0.5rem;
+  }
+
+  span {
+    color: var(--color-soft-red);
+    font-size: 5.625rem;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.countdown-card__body--top {
+  height: 50%;
+  background-color: var(--color-darker-blue);
+}
+.countdown-card__body--bottom {
+  height: 50%;
+  background-color: var(--color-dark-blue);
+}
+
+.countdown-card__title {
+  margin-top: 2rem;
   text-align: center;
-  font-size: var(--font-base);
-  font-family: var(--font-family);
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    margin-inline: 1rem;
+
+    img {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
 }

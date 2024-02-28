@@ -6,11 +6,17 @@
   --color-soft-red: hsl(345, 95%, 68%);
 
   --color-white: hsl(0, 0%, 100%);
-  --color-dark-blue: hsl(236, 21%, 26%);
-  --color-darker-blue: hsl(235, 16%, 14%);
+  --color-dark-blue: hsl(236, 34%, 31%);
+  --color-darker-blue: hsl(240, 35%, 27%);
   --color-darkest-blue: hsl(234, 17%, 12%);
 
+  --color-background: hsl(251, 27%, 16%);
+
   --font-base: 0.875rem;
+  --font-lg: 1rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 1.375rem;
+
   --font-family: "Red Hat Text", sans-serif;
   --font-weight: 700;
   --font-style: normal;
