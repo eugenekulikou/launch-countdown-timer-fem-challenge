@@ -54,6 +54,7 @@ Users should be able to:
 
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Using CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting)
+- [Change Color of SVG on Hover](https://css-tricks.com/change-color-of-svg-on-hover/)
 
 ## Author
 

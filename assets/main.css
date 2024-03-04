@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url(./variables.css);
+@import url(./icons.css);
 
 body {
   height: 100dvh;
@@ -124,11 +125,6 @@ footer {
 
     a {
       margin-inline: 1rem;
-
-      img {
-        height: 1.5rem;
-        width: 1.5rem;
-      }
     }
   }
 
