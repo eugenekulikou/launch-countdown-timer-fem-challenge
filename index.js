@@ -5,7 +5,7 @@ const HOUR = 60 * MINUTE;
 const DAY = 24 * HOUR;
 
 // Distance in days for the countdown
-const COUNTDOWN_DISTANCE_DAYS = 9;
+const COUNTDOWN_DISTANCE_DAYS = 14;
 
 // Start and end dates for the countdown
 const DATE_START = new Date();
