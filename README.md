@@ -40,7 +40,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Relative Sizing Units
-- CSS Nesting
 - CSS Grid
 - Mobile-first workflow
 - No build step
