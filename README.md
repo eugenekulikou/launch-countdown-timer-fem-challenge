@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/evk11/launch-countdown-timer-fem-challenge)
+- Solution URL: [Github](https://github.com/eugenekulikou/launch-countdown-timer-fem-challenge)
 - Live Site URL: [Vercel](https://launch-countdown-timer-fem-challenge.vercel.app/)
 
 ## My process
@@ -57,5 +57,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@evk11](https://www.frontendmentor.io/profile/evk11)
+- Frontend Mentor - [@eugenekulikou](https://www.frontendmentor.io/profile/eugenekulikou)
 - LinkedIn - [@eugenekulikou](https://www.linkedin.com/in/eugenekulikou/)
